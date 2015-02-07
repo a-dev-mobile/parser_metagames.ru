@@ -1,0 +1,85 @@
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ripple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rippleAlpha="0.2"
+    app:rippleColor="#F34E4E"
+
+    app:rippleHover="true"
+    app:rippleOverlay="true">
+
+
+
+    <com.dexafree.materialList.view.SmallImageCardItemView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/MainLayout">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style="@style/MainCardView"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:padding="8dp">
+
+
+        <!-- Thumbnail Image -->
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/titleGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="title"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/typeGame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleGame"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="type"
+            android:textSize="@dimen/rating" />
+
+
+        <!-- Release Year -->
+        <TextView
+            android:id="@+id/releasedData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Data"
+            android:textColor="@color/year"
+            android:textSize="@dimen/year" />
+
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    </com.dexafree.materialList.view.SmallImageCardItemView>
+
+
+</com.balysv.materialripple.MaterialRippleLayout>
+
+

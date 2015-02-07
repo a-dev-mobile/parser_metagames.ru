@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ReleasedGames.iml" filepath="$PROJECT_DIR$/ReleasedGames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material_dialog_library/material_dialog_library.iml" filepath="$PROJECT_DIR$/material_dialog_library/material_dialog_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material_list_library/material_list_library.iml" filepath="$PROJECT_DIR$/material_list_library/material_list_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material_ripple_library/material_ripple_library.iml" filepath="$PROJECT_DIR$/material_ripple_library/material_ripple_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material_tab_library/material_tab_library.iml" filepath="$PROJECT_DIR$/material_tab_library/material_tab_library.iml" />
+    </modules>
+  </component>
+</project>
+

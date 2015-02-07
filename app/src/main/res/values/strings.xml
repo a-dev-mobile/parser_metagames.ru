@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Games Release</string>
+
+
+    <string-array name="console_name">
+        <item>PC</item>
+        <item>Xbox 360</item>
+        <item>Xbox One</item>
+        <item>PS3</item>
+        <item>PS4</item>
+        <item>Wii U</item>
+        <item>PS Vita</item>
+    </string-array>
+
+
+    <string-array name="console_color">
+        <item>#F34E4E</item>
+        <item>#98CC45</item>
+        <item>#98CC45</item>
+        <item>#3F98FC</item>
+        <item>#3F98FC</item>
+        <item>#0EBBCF</item>
+        <item>#3FC0FC</item>
+    </string-array>
+
+
+    <string-array name="console_url">
+        <item>http://www.metagames.ru/pc/upcoming/</item>
+        <item>http://www.metagames.ru/xbox_360/upcoming/</item>
+        <item>http://www.metagames.ru/xbox_one/upcoming/</item>
+        <item>http://www.metagames.ru/ps3/upcoming/</item>
+        <item>http://www.metagames.ru/ps4/upcoming/</item>
+        <item>http://www.metagames.ru/wii_u/upcoming/</item>
+        <item>http://www.metagames.ru/ps_vita/upcoming/</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1185063080710337/7920030005</string>
+
+
+
+        <string name="app_name_and_version"><![CDATA[
+        <b>Релиз Игр</b>&nbsp;<font color="#888888">v%1$s</font>]]></string>
+
+    <string name="purchase_successfully_title"><![CDATA[
+        <b>Покупка успешно совершена!</b>]]></string>
+<string name="purchase_successfully_body"><![CDATA[
+        Пожалуйста, перезапустите ваше приложение....]]></string>
+
+    <string name="about_body"><![CDATA[
+        Программа в стиле material design для Android 4.0 и выше.<br/><br/>
+        Designed & built by<br/>
+        <b>TroMOBILE</b>]]></string>
+
+</resources>
